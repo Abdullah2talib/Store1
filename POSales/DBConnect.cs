@@ -17,7 +17,6 @@ namespace POSales
         private string con;
         public string myConnection()
         {
-            con = @"Data Source=MSI6;Initial Catalog=MdemyDBPOS;Integrated Security=True";
             return con;
         }
 
