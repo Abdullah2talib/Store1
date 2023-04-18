@@ -125,5 +125,10 @@ namespace POSales
                 Application.Exit();
             }
         }
+
+        private void txtPass_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

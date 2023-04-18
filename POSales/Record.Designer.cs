@@ -175,7 +175,7 @@ namespace POSales
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 505);
@@ -1181,9 +1181,9 @@ namespace POSales
             this.btnPrintStockIn.FlatAppearance.BorderSize = 0;
             this.btnPrintStockIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPrintStockIn.Image = ((System.Drawing.Image)(resources.GetObject("btnPrintStockIn.Image")));
-            this.btnPrintStockIn.Location = new System.Drawing.Point(926, 18);
+            this.btnPrintStockIn.Location = new System.Drawing.Point(901, 3);
             this.btnPrintStockIn.Name = "btnPrintStockIn";
-            this.btnPrintStockIn.Size = new System.Drawing.Size(42, 36);
+            this.btnPrintStockIn.Size = new System.Drawing.Size(57, 60);
             this.btnPrintStockIn.TabIndex = 15;
             this.btnPrintStockIn.UseVisualStyleBackColor = true;
             this.btnPrintStockIn.Click += new System.EventHandler(this.btnPrintStockIn_Click);

@@ -31,11 +31,11 @@ namespace POSales
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Cashier));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.btnLogout = new System.Windows.Forms.Button();
             this.btnPass = new System.Windows.Forms.Button();
@@ -97,7 +97,7 @@ namespace POSales
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.panel1.Controls.Add(this.btnLogout);
             this.panel1.Controls.Add(this.btnPass);
             this.panel1.Controls.Add(this.btnDSales);
@@ -149,6 +149,7 @@ namespace POSales
             // 
             // btnDSales
             // 
+            this.btnDSales.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnDSales.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDSales.FlatAppearance.BorderSize = 0;
             this.btnDSales.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -161,11 +162,12 @@ namespace POSales
             this.btnDSales.TabIndex = 9;
             this.btnDSales.Text = " Daily Sales";
             this.btnDSales.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnDSales.UseVisualStyleBackColor = true;
+            this.btnDSales.UseVisualStyleBackColor = false;
             this.btnDSales.Click += new System.EventHandler(this.btnDSales_Click);
             // 
             // btnClear
             // 
+            this.btnClear.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnClear.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnClear.Enabled = false;
             this.btnClear.FlatAppearance.BorderSize = 0;
@@ -179,11 +181,12 @@ namespace POSales
             this.btnClear.TabIndex = 8;
             this.btnClear.Text = " Clear Cart";
             this.btnClear.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnClear.UseVisualStyleBackColor = true;
+            this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnSettle
             // 
+            this.btnSettle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnSettle.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnSettle.Enabled = false;
             this.btnSettle.FlatAppearance.BorderSize = 0;
@@ -197,11 +200,12 @@ namespace POSales
             this.btnSettle.TabIndex = 7;
             this.btnSettle.Text = " Settle Payment";
             this.btnSettle.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnSettle.UseVisualStyleBackColor = true;
+            this.btnSettle.UseVisualStyleBackColor = false;
             this.btnSettle.Click += new System.EventHandler(this.btnSettle_Click);
             // 
             // btnDiscount
             // 
+            this.btnDiscount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnDiscount.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDiscount.Enabled = false;
             this.btnDiscount.FlatAppearance.BorderSize = 0;
@@ -215,11 +219,12 @@ namespace POSales
             this.btnDiscount.TabIndex = 6;
             this.btnDiscount.Text = " Add Discount";
             this.btnDiscount.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnDiscount.UseVisualStyleBackColor = true;
+            this.btnDiscount.UseVisualStyleBackColor = false;
             this.btnDiscount.Click += new System.EventHandler(this.btnDiscount_Click);
             // 
             // btnSearch
             // 
+            this.btnSearch.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnSearch.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnSearch.FlatAppearance.BorderSize = 0;
             this.btnSearch.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -232,11 +237,12 @@ namespace POSales
             this.btnSearch.TabIndex = 5;
             this.btnSearch.Text = " Search Product";
             this.btnSearch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.UseVisualStyleBackColor = false;
             this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // btnNTran
             // 
+            this.btnNTran.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnNTran.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnNTran.FlatAppearance.BorderSize = 0;
             this.btnNTran.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -249,11 +255,12 @@ namespace POSales
             this.btnNTran.TabIndex = 4;
             this.btnNTran.Text = " New Transaction";
             this.btnNTran.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
-            this.btnNTran.UseVisualStyleBackColor = true;
+            this.btnNTran.UseVisualStyleBackColor = false;
             this.btnNTran.Click += new System.EventHandler(this.btnNTran_Click);
             // 
             // panel2
             // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.panel2.Controls.Add(this.lblUsername);
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
@@ -284,7 +291,7 @@ namespace POSales
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));
+            this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.panel3.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel3.Location = new System.Drawing.Point(200, 0);
             this.panel3.Name = "panel3";
@@ -293,7 +300,7 @@ namespace POSales
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.panel4.Controls.Add(this.picClose);
             this.panel4.Controls.Add(this.pictureBox2);
             this.panel4.Controls.Add(this.lblname);
@@ -511,7 +518,7 @@ namespace POSales
             // 
             // lblDisplayTotal
             // 
-            this.lblDisplayTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));
+            this.lblDisplayTotal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.lblDisplayTotal.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblDisplayTotal.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDisplayTotal.ForeColor = System.Drawing.Color.White;
@@ -534,14 +541,14 @@ namespace POSales
             this.dgvCash.AllowUserToAddRows = false;
             this.dgvCash.BackgroundColor = System.Drawing.Color.White;
             this.dgvCash.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvCash.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvCash.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.dgvCash.ColumnHeadersHeight = 30;
             this.dgvCash.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
             this.dgvCash.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -597,8 +604,8 @@ namespace POSales
             // Column7
             // 
             this.Column7.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.Column7.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.Column7.DefaultCellStyle = dataGridViewCellStyle7;
             this.Column7.HeaderText = "Price";
             this.Column7.Name = "Column7";
             this.Column7.Width = 69;
@@ -606,8 +613,8 @@ namespace POSales
             // Column5
             // 
             this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.Column5.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.Column5.DefaultCellStyle = dataGridViewCellStyle8;
             this.Column5.HeaderText = "Qty";
             this.Column5.Name = "Column5";
             this.Column5.Width = 58;
@@ -615,8 +622,8 @@ namespace POSales
             // Column6
             // 
             this.Column6.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.Column6.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.Column6.DefaultCellStyle = dataGridViewCellStyle9;
             this.Column6.HeaderText = "Discount";
             this.Column6.Name = "Column6";
             this.Column6.Width = 95;
@@ -624,8 +631,8 @@ namespace POSales
             // Column8
             // 
             this.Column8.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.Column8.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.Column8.DefaultCellStyle = dataGridViewCellStyle10;
             this.Column8.HeaderText = "Total";
             this.Column8.Name = "Column8";
             this.Column8.Width = 65;
