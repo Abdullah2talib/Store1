@@ -42,7 +42,7 @@ namespace POSales
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.panel1.Controls.Add(this.picClose);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -90,7 +90,7 @@ namespace POSales
             this.txtUsername.DisplayIcon = true;
             this.txtUsername.Icon = ((System.Drawing.Image)(resources.GetObject("txtUsername.Icon")));
             this.txtUsername.Lines = new string[0];
-            this.txtUsername.Location = new System.Drawing.Point(71, 75);
+            this.txtUsername.Location = new System.Drawing.Point(71, 76);
             this.txtUsername.MaxLength = 32767;
             this.txtUsername.Multiline = true;
             this.txtUsername.Name = "txtUsername";
@@ -146,7 +146,7 @@ namespace POSales
             // btnVoid
             // 
             this.btnVoid.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnVoid.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));
+            this.btnVoid.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnVoid.FlatAppearance.BorderSize = 0;
             this.btnVoid.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVoid.ForeColor = System.Drawing.Color.White;

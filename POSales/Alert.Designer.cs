@@ -46,6 +46,7 @@ namespace POSales
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.panel1.Controls.Add(this.lblPcode);
             this.panel1.Controls.Add(this.lblMsg);
             this.panel1.Controls.Add(this.btnClose);
@@ -59,18 +60,20 @@ namespace POSales
             // lblPcode
             // 
             this.lblPcode.AutoSize = true;
-            this.lblPcode.Location = new System.Drawing.Point(343, 54);
+            this.lblPcode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(190)))), ((int)(((byte)(0)))));
+            this.lblPcode.Location = new System.Drawing.Point(338, 58);
             this.lblPcode.Name = "lblPcode";
             this.lblPcode.Size = new System.Drawing.Size(20, 17);
             this.lblPcode.TabIndex = 7;
             this.lblPcode.Text = "lb";
             this.lblPcode.Visible = false;
+            this.lblPcode.Click += new System.EventHandler(this.lblPcode_Click);
             // 
             // lblMsg
             // 
             this.lblMsg.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblMsg.ForeColor = System.Drawing.Color.White;
-            this.lblMsg.Location = new System.Drawing.Point(73, 4);
+            this.lblMsg.Location = new System.Drawing.Point(59, 7);
             this.lblMsg.Name = "lblMsg";
             this.lblMsg.Size = new System.Drawing.Size(245, 57);
             this.lblMsg.TabIndex = 6;
@@ -82,7 +85,7 @@ namespace POSales
             this.btnClose.FlatAppearance.BorderSize = 0;
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnClose.Image = ((System.Drawing.Image)(resources.GetObject("btnClose.Image")));
-            this.btnClose.Location = new System.Drawing.Point(324, 17);
+            this.btnClose.Location = new System.Drawing.Point(327, 7);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(31, 31);
             this.btnClose.TabIndex = 5;
@@ -96,9 +99,9 @@ namespace POSales
             this.btnReorder.FlatAppearance.BorderSize = 0;
             this.btnReorder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReorder.ForeColor = System.Drawing.Color.White;
-            this.btnReorder.Location = new System.Drawing.Point(8, 7);
+            this.btnReorder.Location = new System.Drawing.Point(3, 12);
             this.btnReorder.Name = "btnReorder";
-            this.btnReorder.Size = new System.Drawing.Size(50, 50);
+            this.btnReorder.Size = new System.Drawing.Size(50, 56);
             this.btnReorder.TabIndex = 4;
             this.btnReorder.UseVisualStyleBackColor = true;
             this.btnReorder.Click += new System.EventHandler(this.btnReorder_Click);
@@ -107,7 +110,7 @@ namespace POSales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Highlight;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(190)))), ((int)(((byte)(0)))));
             this.ClientSize = new System.Drawing.Size(370, 75);
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));

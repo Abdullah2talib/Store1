@@ -74,9 +74,9 @@ namespace POSales
             // btnOk
             // 
             this.btnOk.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnOk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btnOk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnOk.FlatAppearance.BorderSize = 0;
-            this.btnOk.ForeColor = System.Drawing.Color.Black;
+            this.btnOk.ForeColor = System.Drawing.Color.Transparent;
             this.btnOk.Location = new System.Drawing.Point(222, 89);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(89, 30);
