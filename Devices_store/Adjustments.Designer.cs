@@ -61,7 +61,7 @@ namespace POSales
             this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Select = new System.Windows.Forms.DataGridViewImageColumn();
-            this.dataSet1 = new POSales.DataSet1();
+            this.dataSet1 = new Devices_store.DataSet1();
             this.dataSet1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -472,6 +472,6 @@ namespace POSales
         private System.Windows.Forms.DataGridViewTextBoxColumn Column8;
         private System.Windows.Forms.DataGridViewImageColumn Select;
         private System.Windows.Forms.BindingSource dataSet1BindingSource;
-        private DataSet1 dataSet1;
+        private Devices_store.DataSet1 dataSet1;
     }
 }

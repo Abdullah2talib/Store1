@@ -58,7 +58,7 @@ namespace POSales
                 this.reportViewer1.LocalReport.ReportPath = Application.StartupPath + @"\Reports\rptRecept.rdlc";
                 this.reportViewer1.LocalReport.DataSources.Clear();
 
-                DataSet1 ds = new DataSet1();
+                DataSet ds = new DataSet();
                 SqlDataAdapter da = new SqlDataAdapter();
 
                 cn.Open();

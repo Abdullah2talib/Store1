@@ -178,12 +178,9 @@ namespace POSales
             // 
             // pictureBox1
             // 
-<<<<<<< HEAD
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-=======
-            this.pictureBox1.Image = global::POSales.Properties.Resources.windows_10_store_512px2;
+            this.pictureBox1.Image = global::Devices_store.Properties.Resources.windows_10_store_512px2;
             this.pictureBox1.Location = new System.Drawing.Point(116, 140);
->>>>>>> 8e96f36a154781e0d38b23bab6e8b451b687256f
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(418, 367);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
