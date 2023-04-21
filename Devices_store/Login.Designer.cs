@@ -49,7 +49,7 @@ namespace Devices_Store
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(113, 201);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(233, 29);
+            this.label2.Size = new System.Drawing.Size(279, 36);
             this.label2.TabIndex = 11;
             this.label2.Text = "Please Login First";
             // 
@@ -178,7 +178,6 @@ namespace Devices_Store
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Image = global::Devices_store.Properties.Resources.windows_10_store_512px2;
             this.pictureBox1.Location = new System.Drawing.Point(116, 140);
             this.pictureBox1.Name = "pictureBox1";
@@ -189,7 +188,7 @@ namespace Devices_Store
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(950, 650);
@@ -197,6 +196,7 @@ namespace Devices_Store
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
