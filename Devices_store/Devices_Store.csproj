@@ -37,7 +37,7 @@
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>icons8_windows_10_store.ico</ApplicationIcon>
+    <ApplicationIcon>icons10_windows_10_store.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
@@ -432,6 +432,7 @@
   <ItemGroup>
     <None Include="Resources\windows_10_store_512px2.png" />
     <None Include="Resources\key_96px7.png" />
+    <Content Include="icons10_windows_10_store.ico" />
     <Content Include="icons8_windows_10_store.ico" />
     <Content Include="MetroFramework.txt" />
     <Content Include="SqlServerTypes\readme.htm" />
