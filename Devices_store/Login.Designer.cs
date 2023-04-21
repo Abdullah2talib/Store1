@@ -49,7 +49,7 @@ namespace Devices_Store
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(113, 201);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(279, 36);
+            this.label2.Size = new System.Drawing.Size(233, 29);
             this.label2.TabIndex = 11;
             this.label2.Text = "Please Login First";
             // 
@@ -188,7 +188,7 @@ namespace Devices_Store
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(950, 650);

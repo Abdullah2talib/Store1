@@ -135,7 +135,7 @@ namespace Devices_Store
             this.metroTabPage1.Controls.Add(this.label2);
             this.metroTabPage1.HorizontalScrollbarBarColor = true;
             this.metroTabPage1.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage1.HorizontalScrollbarSize = 2;
+            this.metroTabPage1.HorizontalScrollbarSize = 1;
             this.metroTabPage1.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage1.Name = "metroTabPage1";
             this.metroTabPage1.Size = new System.Drawing.Size(920, 410);
@@ -143,7 +143,7 @@ namespace Devices_Store
             this.metroTabPage1.Text = "Create Account";
             this.metroTabPage1.VerticalScrollbarBarColor = true;
             this.metroTabPage1.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage1.VerticalScrollbarSize = 2;
+            this.metroTabPage1.VerticalScrollbarSize = 1;
             // 
             // btnAccSave
             // 
@@ -276,7 +276,7 @@ namespace Devices_Store
             this.metroTabPage2.Controls.Add(this.label8);
             this.metroTabPage2.HorizontalScrollbarBarColor = true;
             this.metroTabPage2.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage2.HorizontalScrollbarSize = 2;
+            this.metroTabPage2.HorizontalScrollbarSize = 1;
             this.metroTabPage2.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage2.Name = "metroTabPage2";
             this.metroTabPage2.Size = new System.Drawing.Size(920, 410);
@@ -284,7 +284,7 @@ namespace Devices_Store
             this.metroTabPage2.Text = "Change Password";
             this.metroTabPage2.VerticalScrollbarBarColor = true;
             this.metroTabPage2.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage2.VerticalScrollbarSize = 2;
+            this.metroTabPage2.VerticalScrollbarSize = 1;
             // 
             // lblUsername
             // 
@@ -394,7 +394,7 @@ namespace Devices_Store
             this.metroTabPage3.Controls.Add(this.dgvUser);
             this.metroTabPage3.HorizontalScrollbarBarColor = true;
             this.metroTabPage3.HorizontalScrollbarHighlightOnWheel = false;
-            this.metroTabPage3.HorizontalScrollbarSize = 2;
+            this.metroTabPage3.HorizontalScrollbarSize = 1;
             this.metroTabPage3.Location = new System.Drawing.Point(4, 38);
             this.metroTabPage3.Name = "metroTabPage3";
             this.metroTabPage3.Size = new System.Drawing.Size(920, 410);
@@ -402,7 +402,7 @@ namespace Devices_Store
             this.metroTabPage3.Text = "Activate/ UnActivate Account";
             this.metroTabPage3.VerticalScrollbarBarColor = true;
             this.metroTabPage3.VerticalScrollbarHighlightOnWheel = false;
-            this.metroTabPage3.VerticalScrollbarSize = 2;
+            this.metroTabPage3.VerticalScrollbarSize = 1;
             // 
             // gbUser
             // 
@@ -556,6 +556,7 @@ namespace Devices_Store
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "UserAccount";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

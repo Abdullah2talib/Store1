@@ -141,7 +141,7 @@ namespace Devices_Store
             this.Column2.HeaderText = "Id";
             this.Column2.Name = "Column2";
             this.Column2.Visible = false;
-            this.Column2.Width = 47;
+            this.Column2.Width = 49;
             // 
             // Column3
             // 
@@ -190,6 +190,7 @@ namespace Devices_Store
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Brand";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
