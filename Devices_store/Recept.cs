@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Microsoft.Reporting.WinForms;
 
-namespace POSales
+namespace Devices_Store
 {
     public partial class Recept : Form
     {

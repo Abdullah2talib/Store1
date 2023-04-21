@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace POSales
+namespace Devices_Store
 {
     public static class ThemeColor
     {

@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace POSales
+namespace Devices_Store
 {
     public partial class CategoryModule : Form
     {

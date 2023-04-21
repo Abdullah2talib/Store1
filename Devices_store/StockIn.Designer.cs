@@ -1,5 +1,5 @@
 ﻿
-namespace POSales
+namespace Devices_Store
 {
     partial class StockIn
     {

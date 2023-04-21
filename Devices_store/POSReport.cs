@@ -11,7 +11,7 @@ using System.Windows.Forms;
 using Devices_store;
 using Microsoft.Reporting.WinForms;
 
-namespace POSales
+namespace Devices_Store
 {
     public partial class POSReport : Form
     {
