@@ -193,7 +193,6 @@ namespace Devices_Store
         public MetroFramework.Controls.MetroTextBox txtUsername;
         private MetroFramework.Controls.MetroTextBox txtPass;
         public System.Windows.Forms.Button btnVoid;
-       
-
+        private readonly System.EventHandler Void_Load;
     }
 }
