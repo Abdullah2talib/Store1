@@ -414,9 +414,9 @@
     <Folder Include="Image\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="MetroFramework.txt" />
     <None Include="Resources\windows_10_store_512px2.png" />
     <None Include="Resources\key_96px7.png" />
+    <Content Include="MetroFramework.txt" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
