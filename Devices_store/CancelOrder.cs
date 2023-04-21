@@ -63,5 +63,10 @@ namespace Devices_Store
                 this.Dispose();
             }
         }
+
+        private void CancelOrder_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
