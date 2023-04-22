@@ -6,4 +6,6 @@
 ### login as cashier:
 #### username: chashier
 #### password: 123
+---------
+# The database location is in the Srore folder [store.bak]
 

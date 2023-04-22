@@ -32,6 +32,11 @@ namespace Devices_Store
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UserAccount));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.metroTabControl1 = new MetroFramework.Controls.MetroTabControl();
@@ -179,7 +184,7 @@ namespace Devices_Store
             // 
             this.txtName.Location = new System.Drawing.Point(265, 273);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(527, 26);
+            this.txtName.Size = new System.Drawing.Size(527, 30);
             this.txtName.TabIndex = 5;
             // 
             // cbRole
@@ -190,14 +195,14 @@ namespace Devices_Store
             "Cashier"});
             this.cbRole.Location = new System.Drawing.Point(265, 220);
             this.cbRole.Name = "cbRole";
-            this.cbRole.Size = new System.Drawing.Size(527, 28);
+            this.cbRole.Size = new System.Drawing.Size(527, 30);
             this.cbRole.TabIndex = 4;
             // 
             // txtRePass
             // 
             this.txtRePass.Location = new System.Drawing.Point(265, 169);
             this.txtRePass.Name = "txtRePass";
-            this.txtRePass.Size = new System.Drawing.Size(527, 26);
+            this.txtRePass.Size = new System.Drawing.Size(527, 30);
             this.txtRePass.TabIndex = 3;
             this.txtRePass.UseSystemPasswordChar = true;
             // 
@@ -205,7 +210,7 @@ namespace Devices_Store
             // 
             this.txtPass.Location = new System.Drawing.Point(265, 118);
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(527, 26);
+            this.txtPass.Size = new System.Drawing.Size(527, 30);
             this.txtPass.TabIndex = 3;
             this.txtPass.UseSystemPasswordChar = true;
             // 
@@ -213,7 +218,7 @@ namespace Devices_Store
             // 
             this.txtUsername.Location = new System.Drawing.Point(265, 67);
             this.txtUsername.Name = "txtUsername";
-            this.txtUsername.Size = new System.Drawing.Size(527, 26);
+            this.txtUsername.Size = new System.Drawing.Size(527, 30);
             this.txtUsername.TabIndex = 3;
             // 
             // label6
@@ -221,7 +226,7 @@ namespace Devices_Store
             this.label6.AutoSize = true;
             this.label6.Location = new System.Drawing.Point(95, 274);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(87, 20);
+            this.label6.Size = new System.Drawing.Size(108, 22);
             this.label6.TabIndex = 2;
             this.label6.Text = "Full Name :";
             // 
@@ -230,7 +235,7 @@ namespace Devices_Store
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(95, 223);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(49, 20);
+            this.label5.Size = new System.Drawing.Size(59, 22);
             this.label5.TabIndex = 2;
             this.label5.Text = "Role :";
             // 
@@ -239,7 +244,7 @@ namespace Devices_Store
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(95, 172);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(148, 20);
+            this.label4.Size = new System.Drawing.Size(183, 22);
             this.label4.TabIndex = 2;
             this.label4.Text = "Re-type Password :";
             // 
@@ -248,7 +253,7 @@ namespace Devices_Store
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(95, 121);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 20);
+            this.label3.Size = new System.Drawing.Size(105, 22);
             this.label3.TabIndex = 2;
             this.label3.Text = "Password :";
             // 
@@ -257,7 +262,7 @@ namespace Devices_Store
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(95, 70);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(91, 20);
+            this.label2.Size = new System.Drawing.Size(111, 22);
             this.label2.TabIndex = 2;
             this.label2.Text = "Username :";
             // 
@@ -292,7 +297,7 @@ namespace Devices_Store
             this.lblUsername.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUsername.Location = new System.Drawing.Point(176, 73);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(82, 18);
+            this.lblUsername.Size = new System.Drawing.Size(103, 23);
             this.lblUsername.TabIndex = 36;
             this.lblUsername.Text = "Username";
             // 
@@ -339,7 +344,7 @@ namespace Devices_Store
             // 
             this.txtRePass2.Location = new System.Drawing.Point(280, 234);
             this.txtRePass2.Name = "txtRePass2";
-            this.txtRePass2.Size = new System.Drawing.Size(527, 26);
+            this.txtRePass2.Size = new System.Drawing.Size(527, 30);
             this.txtRePass2.TabIndex = 11;
             this.txtRePass2.UseSystemPasswordChar = true;
             // 
@@ -348,7 +353,7 @@ namespace Devices_Store
             this.label10.AutoSize = true;
             this.label10.Location = new System.Drawing.Point(110, 237);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(148, 20);
+            this.label10.Size = new System.Drawing.Size(183, 22);
             this.label10.TabIndex = 10;
             this.label10.Text = "Re-type Password :";
             // 
@@ -356,7 +361,7 @@ namespace Devices_Store
             // 
             this.txtNPass.Location = new System.Drawing.Point(280, 176);
             this.txtNPass.Name = "txtNPass";
-            this.txtNPass.Size = new System.Drawing.Size(527, 26);
+            this.txtNPass.Size = new System.Drawing.Size(527, 30);
             this.txtNPass.TabIndex = 9;
             this.txtNPass.UseSystemPasswordChar = true;
             // 
@@ -365,7 +370,7 @@ namespace Devices_Store
             this.label9.AutoSize = true;
             this.label9.Location = new System.Drawing.Point(110, 179);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(126, 20);
+            this.label9.Size = new System.Drawing.Size(152, 22);
             this.label9.TabIndex = 8;
             this.label9.Text = "New Password :";
             // 
@@ -373,7 +378,7 @@ namespace Devices_Store
             // 
             this.txtCurPass.Location = new System.Drawing.Point(280, 121);
             this.txtCurPass.Name = "txtCurPass";
-            this.txtCurPass.Size = new System.Drawing.Size(527, 26);
+            this.txtCurPass.Size = new System.Drawing.Size(527, 30);
             this.txtCurPass.TabIndex = 7;
             this.txtCurPass.UseSystemPasswordChar = true;
             // 
@@ -382,7 +387,7 @@ namespace Devices_Store
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(110, 124);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(146, 20);
+            this.label8.Size = new System.Drawing.Size(180, 22);
             this.label8.TabIndex = 6;
             this.label8.Text = "Current Password :";
             // 
@@ -431,7 +436,7 @@ namespace Devices_Store
             this.lblAccNote.AutoSize = true;
             this.lblAccNote.Location = new System.Drawing.Point(103, 27);
             this.lblAccNote.Name = "lblAccNote";
-            this.lblAccNote.Size = new System.Drawing.Size(453, 20);
+            this.lblAccNote.Size = new System.Drawing.Size(562, 22);
             this.lblAccNote.TabIndex = 0;
             this.lblAccNote.Text = "To change the password for username, click Reset Password.";
             // 
@@ -480,8 +485,8 @@ namespace Devices_Store
             // dgvUser
             // 
             this.dgvUser.AllowUserToAddRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.White;
             this.dgvUser.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.dgvUser.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -491,7 +496,7 @@ namespace Devices_Store
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.dgvUser.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
@@ -507,6 +512,7 @@ namespace Devices_Store
             this.dgvUser.Location = new System.Drawing.Point(14, 3);
             this.dgvUser.Name = "dgvUser";
             this.dgvUser.RowHeadersVisible = false;
+            this.dgvUser.RowHeadersWidth = 51;
             this.dgvUser.Size = new System.Drawing.Size(890, 237);
             this.dgvUser.TabIndex = 3;
             this.dgvUser.SelectionChanged += new System.EventHandler(this.dgvUser_SelectionChanged);
@@ -514,40 +520,65 @@ namespace Devices_Store
             // Column1
             // 
             this.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            this.Column1.DefaultCellStyle = dataGridViewCellStyle3;
             this.Column1.HeaderText = "No";
+            this.Column1.MinimumWidth = 6;
             this.Column1.Name = "Column1";
-            this.Column1.Width = 53;
+            this.Column1.Width = 63;
             // 
             // Column2
             // 
             this.Column2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+            this.Column2.DefaultCellStyle = dataGridViewCellStyle4;
             this.Column2.HeaderText = "User Name";
+            this.Column2.MinimumWidth = 6;
             this.Column2.Name = "Column2";
-            this.Column2.Width = 112;
+            this.Column2.Width = 135;
             // 
             // Column3
             // 
             this.Column3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
+            this.Column3.DefaultCellStyle = dataGridViewCellStyle5;
             this.Column3.HeaderText = "Full Name";
+            this.Column3.MinimumWidth = 6;
             this.Column3.Name = "Column3";
             // 
             // Column5
             // 
             this.Column5.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
+            this.Column5.DefaultCellStyle = dataGridViewCellStyle6;
             this.Column5.HeaderText = "Account Activate";
+            this.Column5.MinimumWidth = 6;
             this.Column5.Name = "Column5";
-            this.Column5.Width = 164;
+            this.Column5.Width = 206;
             // 
             // Column4
             // 
             this.Column4.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(70)))), ((int)(((byte)(160)))));
+            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.Color.White;
+            this.Column4.DefaultCellStyle = dataGridViewCellStyle7;
             this.Column4.HeaderText = "Role";
+            this.Column4.MinimumWidth = 6;
             this.Column4.Name = "Column4";
-            this.Column4.Width = 64;
+            this.Column4.Width = 76;
             // 
             // UserAccount
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(984, 561);
