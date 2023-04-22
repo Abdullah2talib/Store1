@@ -18,6 +18,8 @@ namespace Devices_Store
         DBConnect dbcon = new DBConnect();
         SqlDataReader dr;
         CancelOrder cancelOrder;
+
+        [Obsolete]
         public Void(CancelOrder cancel)
         {
             InitializeComponent();

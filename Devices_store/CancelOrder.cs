@@ -14,12 +14,15 @@ namespace Devices_Store
     public partial class CancelOrder : Form
     {
         DailySale dailySale;
+
+        [Obsolete]
         public CancelOrder(DailySale sale)
         {
             InitializeComponent();
             dailySale = sale;            
         }
 
+        [Obsolete]
         private void btnCOrder_Click(object sender, EventArgs e)
         {
             try
