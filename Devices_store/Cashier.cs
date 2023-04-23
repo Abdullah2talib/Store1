@@ -378,26 +378,6 @@ namespace Devices_Store
             }
         }
 
-        public void Noti()
-        {
-            int i = 0;
-            cn.Open();
-            cm = new SqlCommand("SELECT * FROM vwCriticalItems", cn);
-            dr = cm.ExecuteReader();
-            while (dr.Read())
-            {
-                i++;
-                Alert alert = new Alert(new MainForm());
-                alert.lblPcode.Text = dr["pcode"].ToString();              
-                alert.showAlert(i + ". " + dr["pdesc"].ToString() + " - " + dr["qty"].ToString());
-            }
-            dr.Close();
-            cn.Close();
-        }
-
-        private void Cashier_Load(object sender, EventArgs e)
-        {
-            Noti();
-        }
+     
     }
 }

@@ -175,26 +175,8 @@ namespace Devices_Store
         private void MainForm_Load(object sender, EventArgs e)
         {
             btnDashboard.PerformClick();
-            Noti();
         }
 
-        // Noti Alart for critical items
-        public void Noti()
-        {
-            int i = 0;
-            cn.Open();
-            cm = new SqlCommand("SELECT * FROM vwCriticalItems", cn);
-            dr = cm.ExecuteReader();
-            while (dr.Read())
-            {
-                i++;
-                Alert alert = new Alert(this);
-                alert.lblPcode.Text = dr["pcode"].ToString();
-                alert.btnReorder.Enabled = true;
-                alert.showAlert(i + ". " + dr["pdesc"].ToString() + " - " + dr["qty"].ToString());
-            }
-            dr.Close();
-            cn.Close();
-        }
+      
     }
 }
