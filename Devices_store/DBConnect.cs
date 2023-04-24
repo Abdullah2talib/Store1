@@ -17,7 +17,7 @@ namespace Devices_Store
         private string con;
         public string myConnection()
         {
-            con = "Data Source=MSI6;Initial Catalog=Store;Integrated Security=True";
+            con = "Data Source=DESKTOP-FQAG6C6;Initial Catalog=Store;Integrated Security=True;Connect Timeout=30";
             return con;
         }
 
